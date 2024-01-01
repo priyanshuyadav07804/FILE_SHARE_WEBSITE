@@ -1,3 +1,6 @@
+FRONT PAGE :
+
+![image](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/28d05ede-24f7-4077-8c40-0a153b370294)
 
 AFTER UPLOADIN FILE :
 
@@ -5,12 +8,12 @@ AFTER UPLOADIN FILE :
 
 SEARCH LINK IN ANOTHER TAB : 
 
-(https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/cb2ae0d1-3e82-40db-bc90-c2dee3cfea24)
+![ALT-IMAGE](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/cb2ae0d1-3e82-40db-bc90-c2dee3cfea24)
 
 WRITING EMAIL ADDRESSES : 
 
-(https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/8b262191-9afe-469d-8405-a9b312a4b6b4)
+![ALT-IMAGE](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/8b262191-9afe-469d-8405-a9b312a4b6b4)
 
 EMAIL IN YOUR GMAIL :
 
-(https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/108a34e7-da1c-4c23-877a-bc8640f9a087)
+![ALT-IMAGE](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/108a34e7-da1c-4c23-877a-bc8640f9a087)
