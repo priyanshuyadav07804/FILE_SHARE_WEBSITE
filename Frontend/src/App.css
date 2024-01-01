@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  color: white;
+}
+
+body {
+  background: #000;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 90px;
+  letter-spacing: 4px;
+  font-family: monospace;
+}
+
+.border {
+  border: 2px solid rgb(86 124 124);
+  padding: 30px 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.form {
+  border: 2px dashed rgb(34, 176, 176);
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  transition: 0.3s ease-in-out; /* Add transition for smooth effect */
+  position: relative; /* Ensure the positioning context */
+}
+
+.form.dragging {
+  border-color: rgb(2, 255, 255); /* Change border color while dragging */
+  background: rgb(18, 57, 57);
+  gap: 50px;
+}
+
+.upload-container {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  bottom: 0px;
+}
+
+.upload-container img {
+  height: 100px;
+  position: absolute;
+  transition: transform 0.25s ease-in-out;
+  transform-origin: bottom;
+}
+
+.icon-container .right,
+.icon-container .left {
+  filter: grayscale(0.5);
+  transform: scale(0.9);
+}
+
+.center.dragging{
+  transform: translateY(-5px);
+}
+
+.left.dragging{
+  transform: rotate(-10deg) scale(0.9) translateX(-20px);
+}
+.right.dragging {
+  transform: rotate(10deg) scale(0.9) translateX(20px);
+}
+
+
+.drop {
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+label {
+  color: yellow;
+  cursor: pointer;
+}
+
+button {
+  background: black;
+  color: yellow;
+  border: 2px solid yellow;
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+p {
+  color: rgb(2, 255, 255);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+.data {
+  margin-top: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-copy{
+  position: relative;
+  border: 2px dashed rgb(34, 176, 176);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.data input {
+  font-size: 18px;
+  padding: 10px 10px;
+  color: rgb(2, 255, 255);
+  background: #000;
+  border: none;
+  width: 455px;
+}
+
+.input-copy img{
+  height: 25px;
+  position: absolute;
+  right: 3px;
+  cursor: pointer;
+}
+
+.email-form{
+  margin-top: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box{
+  border: 1px solid rgb(34, 176, 176);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 10px 60px ;
+  border-radius: 10px;
+}
+
+.email-box{
+  display: flex;
+  justify-content: space-between;
+}
+.email-box label{
+  color: white;
+  font-weight: 600;
+}
+.email-input{
+  border: none;
+  background: #000;
+  border-bottom: 1px solid white;
+}
+.email-input:focus{
+  outline: none;
+}
+.another {
+  margin: 12px auto;
+  border-color: rgb(255, 0, 212);
+  padding: 5px 10px;
+  color: white;
+  background-color: rgb(255, 0, 212);
+  transition: 0.3s all ease;
+}
+
+.another:hover {
+  background-color: black;
+}
+
+
+
+/* 
+.row {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.open {
+  background-color: teal;
+  border: 2px solid teal;
+  border-radius: 5px;
+  padding: 5px 5px;
+  color: white;
+  transition: 0.4s all ease;
+}
+
+.open:hover {
+  background: black;
+}
+
+.copy {
+  background-color: green;
+  color: white;
+  border-color: green;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.4s all ease;
+}
+
+.copy:hover {
+  background-color: black;
+}
+
+.copy-to-clipboard {
+  color: white;
+} */
+
+.download-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 170px;
+  border: 2px solid yellow;
+  width: 500px;
+  padding: 40px 0px;
+  padding-top: 20px;
+  border-radius: 20px;
+  transition: 0.4s all ease;
+}
+
+.download-box:hover {
+  box-shadow: 6px 6px 19px -4px yellow;
+}
+
+img {
+  height: 150px;
+}
+
+.size {
+  font-size: 12px;
+}
+
+a {
+  margin-top: 10px;
+  text-decoration: none;
+  border: 2px solid teal;
+  padding: 10px 20px;
+  background: rgb(0, 123, 123);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.3s all ease;
+}
+
+a:hover {
+  scale: 1.2;
+  background: #000;
+  box-shadow: 6px 6px 9px -4px rgb(37, 224, 224);
+}
+
+
