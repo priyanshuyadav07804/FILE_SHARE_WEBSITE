@@ -1,5 +1,3 @@
-
-
 FRONT PAGE :
 
 ![image](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/9b188523-1284-48d5-921e-87d73c268b77)
@@ -7,8 +5,6 @@ FRONT PAGE :
 AFTER UPLOADIN FILE :
 
 https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/dccdf270-90bb-42ea-a895-d3e60eb3912b
-
-
 
 ![ALT-IMAGE](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/215b7345-0418-4f4c-9205-acb83c0c5917)
 
