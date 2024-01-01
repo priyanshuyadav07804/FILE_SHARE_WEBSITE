@@ -1,7 +1,7 @@
 
 AFTER UPLOADIN FILE :
 
-(https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/215b7345-0418-4f4c-9205-acb83c0c5917)
+![ALT-IMAGE](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/215b7345-0418-4f4c-9205-acb83c0c5917)
 
 SEARCH LINK IN ANOTHER TAB : 
 
