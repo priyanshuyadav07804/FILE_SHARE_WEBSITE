@@ -1,6 +1,6 @@
 FRONT PAGE :
+![image](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/9b188523-1284-48d5-921e-87d73c268b77)
 
-![image](https://github.com/priyanshuyadav07804/FILE_SHARE_WEBSITE/assets/80442935/28d05ede-24f7-4077-8c40-0a153b370294)
 
 AFTER UPLOADIN FILE :
 
